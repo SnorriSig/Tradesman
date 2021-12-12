@@ -10,11 +10,9 @@ import javax.persistence.*;
 @RequiredArgsConstructor
 @Getter
 @Setter
-@Table(name = "video")
-public class Video {
+public class UserType {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private int videoId;
-    private String data;
-    private String name;
+    private int userTypeId;
+    private String type;
 }

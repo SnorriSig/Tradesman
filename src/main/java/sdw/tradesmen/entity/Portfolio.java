@@ -10,11 +10,10 @@ import javax.persistence.*;
 @RequiredArgsConstructor
 @Getter
 @Setter
-@Table(name = "video")
-public class Video {
+public class Portfolio {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private int videoId;
-    private String data;
-    private String name;
+    private int portfolioId;
+    private String header;
+    private String introduction;
 }

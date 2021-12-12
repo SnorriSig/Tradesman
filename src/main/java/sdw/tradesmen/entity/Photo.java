@@ -10,7 +10,6 @@ import javax.persistence.*;
 @RequiredArgsConstructor
 @Getter
 @Setter
-@Table(name = "photo")
 public class Photo {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
